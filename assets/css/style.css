@@ -1,14 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap");
 
-.newspaper-container {
-    padding: 1.5em;
-    width: 900px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 1em;
-    box-shadow: 3px 3px 8px rgb(160, 160, 160);
-    margin: auto;
-}
-
 body {
     background-color: rgb(221, 221, 221);
 }
@@ -29,13 +20,9 @@ nav {
     border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
 
-nav ul {
-    list-style: none;
-}
-
 nav li {
     display: inline;
-    margin-inline: 10px;
+    margin-inline: 12px;
     font-family: Source Sans Pro, sans-serif;
 }
 
@@ -50,7 +37,6 @@ nav li a:hover {
 }
 
 main {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
     display: inline-block;
 }
 
@@ -69,6 +55,33 @@ h2, h4, h5 {
     font-family: Roboto Slab, serif;
 }
 
+h4 {
+    font-size: 1.3em;
+}
+
 p {
     font-family: Source Sans Pro, sans-serif;
+}
+
+.newspaper-container {
+    padding: 1.5em;
+    width: 900px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    box-shadow: 3px 3px 8px rgb(160, 160, 160);
+    margin: auto;
+}
+
+.size-articles {
+    display: inline-block;
+    width: 45%;
+    padding: 1em;
+}
+
+.article-img {
+    width: 100%;
+}
+
+#more-articles {
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
 }
