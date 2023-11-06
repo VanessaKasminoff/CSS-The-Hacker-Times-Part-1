@@ -1,87 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap");
 
 body {
-    background-color: rgb(221, 221, 221);
+  background-color: rgb(221, 221, 221);
 }
 
 header h1 {
-    text-align: center;
-    font-family: Abril Fatface, serif;
-    font-size: 3.5em;
+  text-align: center;
+  font-family: Abril Fatface, serif;
+  font-size: 3.5em;
 }
 
 header .date {
-    font-family: Source Sans Pro, sans-serif;
+  font-family: Source Sans Pro, sans-serif;
 }
 
 nav {
-    text-align: center;
-    border-top: 1px solid rgba(128, 128, 128, 0.5);
-    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  text-align: center;
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
 
 nav li {
-    display: inline;
-    margin-inline: 12px;
-    font-family: Source Sans Pro, sans-serif;
+  display: inline;
+  margin-inline: 12px;
+  font-family: Source Sans Pro, sans-serif;
 }
 
 nav li a {
-    text-decoration: none;
-    color: rgb(128, 128, 128);
+  text-decoration: none;
+  color: rgb(128, 128, 128);
 }
 
 nav li a:hover {
-    color: rgb(225, 0, 0);
-    transition: 0.5s;
+  color: rgb(225, 0, 0);
+  transition: 0.5s;
 }
 
 main {
-    display: inline-block;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 main h2 {
-    font-size: 2em;
-    margin-bottom: 0;
+  font-size: 2em;
+  margin-bottom: 0;
 }
 
 main h5 {
-    font-size: 1em;
-    color: rgb(225, 0, 0);
-    margin-top: 10px;
+  font-size: 1em;
+  color: rgb(225, 0, 0);
+  margin-top: 10px;
 }
 
-h2, h4, h5 {
-    font-family: Roboto Slab, serif;
+h2,
+h4,
+h5 {
+  font-family: Roboto Slab, serif;
 }
 
 h4 {
-    font-size: 1.3em;
+  font-size: 1.3em;
+  margin-top: 10px;
 }
 
 p {
-    font-family: Source Sans Pro, sans-serif;
+  font-family: Source Sans Pro, sans-serif;
+  text-align: justify;
 }
 
 .newspaper-container {
-    padding: 1.5em;
-    width: 900px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 1em;
-    box-shadow: 3px 3px 8px rgb(160, 160, 160);
-    margin: auto;
+  padding: 1.5em;
+  width: 900px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1em;
+  box-shadow: 3px 3px 8px rgb(160, 160, 160);
+  margin: auto;
 }
 
 .size-articles {
-    display: inline-block;
-    width: 45%;
-    padding: 1em;
+  display: inline-block;
+  width: 45%;
+  padding: 1em;
 }
 
 .article-img {
-    width: 100%;
+  width: 100%;
 }
 
 #more-articles {
-    border-top: 1px solid rgba(128, 128, 128, 0.5);
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
 }
