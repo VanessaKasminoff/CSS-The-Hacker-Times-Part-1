@@ -15,6 +15,9 @@ header .date {
 }
 
 nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
   text-align: center;
   border-top: 1px solid rgba(128, 128, 128, 0.5);
   border-bottom: 1px solid rgba(128, 128, 128, 0.5);
@@ -68,6 +71,22 @@ p {
   text-align: justify;
 }
 
+footer ul {
+  width: 60%;
+  margin: 1em 0 0 auto;
+}
+
+footer li {
+  display: inline;
+  margin-inline: 1em;
+}
+
+footer li a {
+  color: rgb(225, 0, 0);
+  font-family: Source Sans Pro, sans-serif;
+  font-size: 14px;
+}
+
 .newspaper-container {
   padding: 1.5em;
   width: 900px;
@@ -89,4 +108,8 @@ p {
 
 #more-articles {
   border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+#footer {
+  border-top: 1px solid grey;
 }
